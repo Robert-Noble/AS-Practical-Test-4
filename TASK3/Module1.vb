@@ -145,7 +145,7 @@
         Console.WriteLine("---------------------------------------")
         Console.ForegroundColor = ConsoleColor.Green
     
-        Console.WriteLine("Winner: " & Random_Index & ". " & Names_Array(Random_Index))
+        Console.WriteLine("Winner: " & (Random_Index + 1) & ". " & Names_Array(Random_Index))
     
         Console.ForegroundColor = ConsoleColor.Cyan
         Console.WriteLine("---------------------------------------")
