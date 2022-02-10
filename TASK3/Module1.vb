@@ -120,6 +120,7 @@ Module Module1
 
         Console.ForegroundColor = ConsoleColor.Cyan
         Console.WriteLine("---------------------------------------")
+        Console.WriteLine("---------------------------------------")
 
         For i = 0 To Names_Array.Length - 1
             Console.ForegroundColor = ConsoleColor.Green
